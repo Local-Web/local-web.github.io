@@ -1,7 +1,9 @@
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@800&family=Lato&family=Merriweather:wght@300&display=swap');
+
 body {
   font-size: 1.5em;
-  background-color: white;
-  font-family: sans-serif;
+  font-family: "Merriweather", serif;
 }
 
 main,
@@ -11,26 +13,56 @@ footer {
   margin: 0 auto;
 }
 
+h1, h2 {
+  font-family: "Lato", sans-serif;
+}
+
+p {
+  font-size: 0.8em;
+  line-height: 1.4em;
+}
+
+nav {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 nav a {
-  padding-right: 15px;
+  margin-right: 15px;
+  padding: 0.5em;
+  font-family: "Lato", sans-serif;
+
+}
+
+/* color scheme */
+body {
+  background-color: #ddfcdf;
+}
+
+nav a {
+  background: #078810;
+  color: #ffecdb;
+  border-radius: 0.15em;
 }
 
 /* homepage styles */
 main.homepage h1 {
   font-size: 5em;
+  font-family: "Bitter", "serif";
   padding-left: 40px;
   margin-bottom: 0;
 }
 
 main.homepage ul.description {
   list-style: none;
+  font-family: "Lato", sans-serif;
   font-size: 2em;
   padding-left: 40px;
   margin-top: 0;
 }
 
 nav.homepage a:first-of-type {
-  padding-left: 40px;
+  margin-left: 40px;
 }
 
 
